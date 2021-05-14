@@ -1,0 +1,126 @@
+.upload-wrapper {
+  margin: 36rpx;
+}
+.upload-wrapper .upload-form .upload-label {
+  background: #CFE6FF;
+  height: 60rpx;
+  line-height: 60rpx;
+  text-align: center;
+  color: #11635B;
+  font-size: 20px;
+}
+.upload-wrapper .upload-form .upload-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  position: relative;
+  box-sizing: border-box;
+  height: 160rpx;
+  margin-bottom: 40rpx;
+  padding: 0 24rpx;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.upload-wrapper .upload-form .upload-content .upload-button {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  width: 240rpx;
+  height: 96rpx;
+  line-height: 96rpx;
+  color: white;
+  background: #7db7f5;
+  font-size: 14px;
+  text-align: center;
+  border-radius: 4px;
+  font-weight: bold;
+}
+.upload-wrapper .upload-form .upload-content .upload-file {
+  -webkit-box-flex: 2;
+  -webkit-flex: 2;
+          flex: 2;
+  position: relative;
+  height: 72rpx;
+  line-height: 72rpx;
+  margin-left: 24rpx;
+  border: 1px solid #d9d9d9;
+  padding: 0 8rpx;
+  width: 0;
+}
+.upload-wrapper .upload-form .upload-content .upload-file .upload-cancel {
+  position: absolute;
+  top: -12px;
+  right: -6px;
+  color: red;
+}
+.upload-wrapper .upload-form .upload-content-batch {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  position: relative;
+  box-sizing: border-box;
+  margin-bottom: 40rpx;
+  padding: 0 24rpx;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.upload-wrapper .upload-form .upload-content-batch .upload-content--left {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.upload-wrapper .upload-form .upload-content-batch .upload-content--left .upload-button {
+  width: 240rpx;
+  height: 96rpx;
+  line-height: 96rpx;
+  color: white;
+  background: #7db7f5;
+  font-size: 14px;
+  text-align: center;
+  border-radius: 4px;
+  font-weight: bold;
+}
+.upload-wrapper .upload-form .upload-content-batch .upload-content--right {
+  -webkit-box-flex: 2;
+  -webkit-flex: 2;
+          flex: 2;
+}
+.upload-wrapper .upload-form .upload-content-batch .upload-content--right .upload-file {
+  position: relative;
+  height: 72rpx;
+  line-height: 72rpx;
+  margin-left: 24rpx;
+  border: 1px solid #d9d9d9;
+  padding: 0 8rpx;
+  width: 0;
+}
+.upload-wrapper .upload-form .upload-content-batch .upload-content--right .upload-file .upload-cancel {
+  position: absolute;
+  top: -12px;
+  right: -6px;
+  color: red;
+}
+.upload-wrapper .upload-computed {
+  width: 100%;
+  text-align: center;
+}
+.upload-wrapper .upload-computed .computed-button {
+  background: #18ab9c;
+  color: white;
+  font-weight: bold;
+}
+.upload-wrapper .upload-computed .back-button {
+  margin-top: 24rpx;
+  background: #18ab9c;
+  color: white;
+  font-weight: bold;
+}
+

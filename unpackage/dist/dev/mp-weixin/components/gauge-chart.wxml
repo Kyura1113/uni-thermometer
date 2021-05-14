@@ -1,0 +1,1 @@
+<view class="gaguge-canvas"><mpvue-echarts class="vue-ref" vue-id="0ff99c72-1" id="main" data-ref="mapChart" data-event-opts="{{[['^onInit',[['init']]]]}}" bind:onInit="__e" bind:__l="__l"></mpvue-echarts></view>

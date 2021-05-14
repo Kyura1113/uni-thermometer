@@ -1,0 +1,51 @@
+.grids {
+  margin: 18rpx 18rpx 0;
+}
+.grids .grid-container {
+  border: 1px solid #f9f9f9;
+  border-radius: 6px;
+  margin-bottom: 20rpx;
+  background: rgba(255, 255, 255, 0.7);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+.grids .grid-container .grid-header {
+  height: 44rpx;
+  line-height: 44rpx;
+  padding: 12px;
+  font-size: 16px;
+}
+.grids .grid-container .grid-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.grids .grid-container .grid-content .grid-cell {
+  padding: 40rpx 0;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  width: 33.33%;
+  max-width: 33.33%;
+  min-width: 33.33%;
+  text-align: center;
+}
+.grids .grid-container .grid-content .grid-cell .grid-icon {
+  border-radius: 8px;
+  background: #7DB7F5;
+  width: 50px;
+  height: 50px;
+  line-height: 60px;
+  margin: 0 auto;
+}
+.grids .grid-container .grid-content .grid-cell .grid-icon .icon {
+  color: white;
+}
+.grids .grid-container .grid-content .grid-cell .grid-label {
+  margin-top: 8rpx;
+  line-height: 20px;
+  font-size: 14px;
+}
+

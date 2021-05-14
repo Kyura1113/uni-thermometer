@@ -1,0 +1,194 @@
+.thermometer {
+  margin: 36rpx;
+}
+.thermometer .upload-form .upload-label {
+  background: #CFE6FF;
+  height: 60rpx;
+  line-height: 60rpx;
+  text-align: center;
+  color: #11635B;
+  font-size: 20px;
+}
+.thermometer .upload-form .upload-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  position: relative;
+  box-sizing: border-box;
+  height: 160rpx;
+  margin-bottom: 40rpx;
+  padding: 0 24rpx;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.thermometer .upload-form .upload-content .upload-button {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  width: 240rpx;
+  height: 96rpx;
+  line-height: 96rpx;
+  color: white;
+  background: #7db7f5;
+  font-size: 14px;
+  text-align: center;
+  border-radius: 4px;
+  font-weight: bold;
+}
+.thermometer .upload-form .upload-content .upload-file {
+  -webkit-box-flex: 2;
+  -webkit-flex: 2;
+          flex: 2;
+  position: relative;
+  height: 72rpx;
+  line-height: 72rpx;
+  margin-left: 24rpx;
+  border: 1px solid #d9d9d9;
+  padding: 0 8rpx;
+  width: 0;
+}
+.thermometer .upload-form .upload-content .upload-file .upload-cancel {
+  position: absolute;
+  top: -12px;
+  right: -6px;
+  color: red;
+}
+.thermometer .upload-computed {
+  width: 100%;
+  text-align: center;
+}
+.thermometer .upload-computed .computed-button {
+  background: #18ab9c;
+  color: white;
+  font-weight: bold;
+}
+.thermometer .upload-computed .back-button {
+  margin-top: 24rpx;
+  background: #18ab9c;
+  color: white;
+  font-weight: bold;
+}
+
+.computed-button.data-v-d9088080 .van-button {
+  width: 376rpx !important;
+  height: 144rpx !important;
+  font-size: 18px !important;
+  border-radius: 8px !important;
+}
+.previous-button.data-v-d9088080 .van-button {
+  width: 376rpx !important;
+  height: 144rpx !important;
+  font-size: 18px !important;
+  border-radius: 8px !important;
+}
+
+.result-group .result-item {
+  margin-bottom: 16rpx;
+}
+.result-group .result-item .result-date {
+  padding-left: 8rpx;
+  margin-bottom: 4rpx;
+  color: #a9a9a9;
+  font-size: 12px;
+}
+.result-group .result-item .result-form {
+  border-radius: 8px;
+}
+.result-group .result-item .result-form .result-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  position: relative;
+  box-sizing: border-box;
+  height: 60rpx;
+  line-height: 60rpx;
+  padding: 0 24rpx;
+}
+.result-group .result-item .result-form .result-header .result-label {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  text-align: left;
+  font-size: 14px;
+}
+.result-group .result-item .result-form .result-header .result-label-func {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  text-align: right;
+  font-size: 12px;
+  color: #2d8cf0;
+}
+.result-group .result-item .result-form .result-header .result-label-func .button {
+  display: inline-block;
+  padding-left: 16rpx;
+}
+.result-group .result-item .result-form .result-content {
+  position: relative;
+  box-sizing: border-box;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.result-group .result-item .result-form .result-content .result-echart {
+  width: 100%;
+  height: 240rpx;
+}
+.result-group .result-item .result-form .result-content .result-echart .result-legend {
+  position: absolute;
+  right: 6px;
+  top: 6px;
+  padding: 8rpx 12rpx;
+  box-sizing: border-box;
+}
+.result-group .result-item .result-form .result-content .result-echart .result-legend .legend-row {
+  height: 24rpx;
+  line-height: 24rpx;
+  font-size: 8px;
+  color: #808080;
+}
+.result-group .result-item .result-form .result-content .result-echart .result-legend .legend-row .legend-icon {
+  height: 12rpx;
+  width: 12rpx;
+  display: inline-block;
+  margin-right: 8rpx;
+}
+.result-group .result-item .result-form .result-content .result-explain {
+  height: 48rpx;
+  line-height: 48rpx;
+  font-size: 12px;
+  padding-left: 24rpx;
+}
+.result-previous {
+  width: 100%;
+  text-align: center;
+  margin-top: 36rpx;
+}
+.result-previous .previous-button {
+  background: #18ab9c;
+  color: white;
+  font-weight: bold;
+}
+.lowest-bg {
+  background: #7CFFB2;
+}
+.lower-bg {
+  background: #58D9F9;
+}
+.middle-bg {
+  background: #FDDD60;
+}
+.bigger-bg {
+  background: #fdab4d;
+}
+.biggest-bg {
+  background: #FF5263;
+}
+

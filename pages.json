@@ -1,0 +1,54 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "温度计"
+			}
+		}
+	    ,{
+            "path" : "pages/thermometer/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "算温度"
+                //"enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"tabBar": {
+	    "color": "#797979",
+	    "selectedColor": "#2d8cf0",
+	    //"borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+	    "list": [{
+	        "pagePath": "pages/index/index",
+	        "iconPath": "static/image/home_a.png",
+	        "selectedIconPath": "static/image/home_b.png",
+	        "text": "首页"
+	    }, {
+	        "pagePath": "pages/index/index",
+	        "iconPath": "static/image/record_a.png",
+	        "selectedIconPath": "static/image/record_b.png",
+	        "text": "历史记录"
+	    }, {
+	        "pagePath": "pages/index/index",
+	        "iconPath": "static/image/my_a.png",
+	        "selectedIconPath": "static/image/my_b.png",
+	        "text": "我的信息"
+	    }]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "温度计",
+		"navigationBarBackgroundColor": "#7DB7F5",
+		"backgroundColor": "#F9F9F9",
+		"enablePullDownRefresh": false, //下拉刷新
+		"usingComponents":{
+			"van-icon": "/wxcomponents/vant@weapp/icon/index",
+			"van-button": "/wxcomponents/vant@weapp/button/index",
+			"van-circle": "/wxcomponents/vant@weapp/circle/index",
+			"van-transition": "/wxcomponents/vant@weapp/transition/index"
+		}
+	}
+}

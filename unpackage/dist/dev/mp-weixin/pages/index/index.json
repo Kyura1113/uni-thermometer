@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "温度计",
+  "usingComponents": {
+    "grids": "/components/grids"
+  }
+}

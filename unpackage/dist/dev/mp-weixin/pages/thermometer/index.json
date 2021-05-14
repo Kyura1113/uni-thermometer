@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "算温度",
+  "usingComponents": {
+    "gague-chart": "/components/gauge-chart",
+    "upload-form": "/components/upload-form"
+  }
+}
